@@ -1,0 +1,6 @@
+---
+- name: Configure Local M1 Macbooks Laptop
+  hosts: all
+  roles:
+    #    - { role: setup, tags: [ setup ] }
+    - { role: brew-pkgs, tags: [ brew ] }

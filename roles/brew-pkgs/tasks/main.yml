@@ -1,0 +1,4 @@
+- name: Install Brew Packages
+  homebrew:
+    name: "{{ packages }}"
+    state: present
