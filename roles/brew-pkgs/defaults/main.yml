@@ -13,7 +13,6 @@ packages:
   - kubernetes-cli
   - macvim
   - make
-  - nvm
   - pyenv
   - pyyaml
   - readline
